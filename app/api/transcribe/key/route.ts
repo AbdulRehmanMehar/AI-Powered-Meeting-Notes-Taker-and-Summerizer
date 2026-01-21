@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
 
 export async function GET() {
-  const apiKey = ''//process.env.DEEPGRAM_API_KEY?.trim();
+  const apiKey = 'a'//process.env.DEEPGRAM_API_KEY?.trim();
 
   if (!apiKey) {
     // Return mock mode flag if no API key
